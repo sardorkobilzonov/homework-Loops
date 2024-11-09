@@ -1,0 +1,29 @@
+header {
+  background-color: rgb(52, 52, 204);
+  nav {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      width: 100%;
+      max-width: 150px;
+      height: 150px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+      li {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1px;
+        a {
+          // color: #cf1895;
+          color: white;
+        }
+      }
+    }
+  }
+}

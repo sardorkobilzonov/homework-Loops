@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <nav>
+                <img src="./images/LOOPS --_.png" alt="" />
+                <ul>
+                    <li><a href="#">Syntax</a></li>
+                    <li><a href="#">About</a></li>
+                    <!-- <li><a href="#"></a></li> -->
+                </ul>
+            </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="loops__section">
+          <div class="loops">
+            <div class="loop">
+              <p class="for__title">for</p>
+              <p class="for__text">Example</p>
+              <p class="for__examples">// JavaScript program to illustrate for loop <br>
+                let x; <br>
+                
+                // for loop begins when x = 2 <br>
+                // and runs till x <= 4 <br>
+                for (x = 2; x <= 4; x++) { <br>
+                    console.log("Value of x: " + x); <br>
+                }
+                </p>
+            </div>
+
+            <div class="loop">
+              <p class="for__title">while</p>
+              <p class="for__text">Example</p>
+              <p class="for__examples">
+                // JavaScript code to use while loop <br>
+                let val = 1; <br>
+                
+                while (val < 6) { <br>
+                    console.log(val);  <br>
+                    val += 1; <br>
+                }
+                
+                </p>
+            </div>
+
+            <div class="loop">
+              <p class="for__title"> do-while</p>
+              <p class="for__text">Example</p>
+              <p class="for__examples">
+                let test = 1; <br>
+
+                do {  <br>
+                  console.log(test); <br>
+                  test++; <br>
+               } while(test <= 5)
+
+                
+                </p>
+            </div>
+          </div>
+
+
+          <div class="loops">
+            <div class="loop">
+              <p class="for__title">for-in</p>
+              <p class="for__text">Example</p>
+              <p class="for__examples">
+                // JavaScript program to illustrate for loop <br>
+                let myObj = { x: 1, y: 2, z: 3 }; <br>
+                 for (let key in myObj) {  <br>
+                console.log(key, myObj[key]);  <br>
+               }
+
+                </p>
+            </div>
+
+            <div class="loop">
+              <p class="for__title">for-of</p>
+              <p class="for__text">Example</p>
+              <p class="for__examples">
+                let arr = [1, 2, 3, 4, 5]; <br>
+                for (let value of arr) { <br>
+                    console.log(value); <br>
+                }
+                
+                </p>
+            </div>
+
+            <div class="loop">
+              <p class="for__title">Continue Statement</p>
+              <p class="for__text">Example</p>
+              <p class="for__examples">
+                for (let i = 0; i < 11; i++) { <br>
+                  if (i % 2 == 0) <br>
+                      continue; <br>
+                      
+                  console.log(i); <br>
+              }
+                </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
